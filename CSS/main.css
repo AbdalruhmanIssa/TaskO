@@ -6,9 +6,31 @@
 body {
   height: 5000px;
 }
+a {
+  text-decoration: none;
+}
+h1 {
+  text-transform: uppercase;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.list ul {
+  display: flex;
+  list-style-type: none;
+  gap: 14px;
+}
+.list ul a {
+  text-transform: uppercase;
+  color: white;
+}
+.navbar img {
+  width: 50%;
+  display: flex;
+}
 .navbar {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   position: sticky;
@@ -16,24 +38,21 @@ body {
   background-color: black;
   height: 35px;
 }
-.navbar img {
-  width: 50%;
+.portofolio {
+  text-align: center;
+  margin-top: 20px;
+}
+.items {
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  row-gap: 10px;
 }
-.logo {
-  width: 30%;
+.item {
+  width: 33%;
+  padding: 5px;
 }
-.list ul {
+.item img {
   display: flex;
-  list-style-type: none;
-  gap: 14px;
-}
-
-.list ul a {
-  text-transform: uppercase;
-  color: white;
-}
-
-a {
-  text-decoration: none;
+  width: 100%;
 }
