@@ -12,6 +12,9 @@ a {
 h1 {
   text-transform: uppercase;
 }
+h5 {
+  opacity: 0.6;
+}
 .container {
   width: 80%;
   margin: auto;
@@ -51,8 +54,29 @@ h1 {
 .item {
   width: 33%;
   padding: 5px;
+  position: relative;
 }
 .item img {
   display: flex;
   width: 100%;
+}
+
+.A {
+  background-color: rgba(255, 200, 0, 0.9);
+
+  position: absolute;
+  top: 5px;
+  bottom: 48px;
+  left: 5px;
+  right: 5px;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+}
+
+.A:hover {
+  opacity: 1;
+  cursor: pointer;
 }
