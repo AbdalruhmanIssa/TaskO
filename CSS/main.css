@@ -40,6 +40,7 @@ h5 {
   top: 0;
   background-color: black;
   height: 35px;
+  z-index: 1;
 }
 .portofolio {
   text-align: center;
@@ -113,5 +114,5 @@ button{
   color: white;
   text-transform: uppercase;
   background-color: yellow;
-  
+ border: 0; 
 }
